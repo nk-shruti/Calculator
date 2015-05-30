@@ -1,0 +1,354 @@
+<!doctype html>
+<html>
+<head>
+<style>
+#c{
+    border:1px #3D3C3A;
+		width:60px;
+		height:60px;
+		position:absolute;
+		left:30px;
+		top:100px;
+		background-color:#3D3C3A;
+		color:white;
+}
+#res1
+{ border:1px #000000;
+         position:absolute;
+         left:30px;
+         width:240px;
+         height:40px;
+         top:30px;
+         font-size:30px;
+}
+#res2
+{
+   border:1px #000000;
+  position:absolute;
+  left:30px;
+  width:240px;
+  height:20px;
+  top:70px;
+  font-size:15px;
+}
+#c:hover
+{ background-color:#6F6E6C;
+	border-radius: 30px 30px 30px 30px;
+}
+#ob:hover
+{ background-color:#6F6E6C;
+	border-radius: 30px 30px 30px 30px;
+}
+#cb:hover
+{ background-color:#6F6E6C;
+	border-radius: 30px 30px 30px 30px;
+}
+#dv:hover
+{ background-color:#8D8C8A;
+	border-radius: 30px 30px 30px 30px;
+}
+#ob
+{ border:1px #3D3C3A;
+
+		width:60px;
+		height:60px;
+		position:absolute;
+		left:90px;
+		top:100px;
+		background-color:#3D3C3A;
+		color:white;
+}
+
+
+#cb
+{ border:1px #3D3C3A;
+		width:60px;
+		height:60px;
+		position:absolute;
+		left:150px;
+		top: 100px;
+		background-color:#3D3C3A;
+		color:white;
+}
+#dv
+{border:1px #3D3C3A;
+ 		width:60px;
+		height:60px;
+		position:absolute;
+		left:210px;
+		top:100px;
+		background-color:#6F6E6C;
+		color:white;
+}
+#sev:hover
+{ background-color:#6F6E6C;
+	border-radius: 30px 30px 30px 30px;
+}
+#eight:hover
+{ background-color:#6F6E6C;
+	border-radius: 30px 30px 30px 30px;
+}
+#nine:hover
+{ background-color:#6F6E6C;
+	border-radius: 30px 30px 30px 30px;
+}
+#mult:hover
+{ background-color:#8D8C8A;
+	border-radius: 30px 30px 30px 30px;
+}
+
+#sev
+{ border:1px #3D3C3A;
+		width:60px;
+		height:60px;
+		position:absolute;
+		left:30px;
+		top:160px;
+		background-color:#3D3C3A;
+		color:white;
+}
+#eight
+{border:1px #3D3C3A;
+		width:60px;
+		height:60px;
+		position:absolute;
+		left:90px;
+		top:160px;
+		background-color:#3D3C3A;
+		color:white;
+}
+#nine
+{border:1px #3D3C3A;
+		width:60px;
+		height:60px;
+		position:absolute;
+		left:150px;
+		top:160px;
+		background-color:#3D3C3A;
+		color:white;
+}
+#mult
+{border:1px #3D3C3A;
+ 
+		width:60px;
+		height:60px;
+		position:absolute;
+		left:210px;
+		top:160px;
+		background-color:#6F6E6C;
+		color:white;
+}
+#four:hover
+{ background-color:#6F6E6C;
+	border-radius: 30px 30px 30px 30px;
+}
+#five:hover
+{ background-color:#6F6E6C;
+	border-radius: 30px 30px 30px 30px;
+}
+#six:hover
+{ background-color:#6F6E6C;
+	border-radius: 30px 30px 30px 30px;
+}
+#min:hover
+{ background-color:#8D8C8A;
+	border-radius: 30px 30px 30px 30px;
+}
+#four
+{ border:1px #3D3C3A;
+		width:60px;
+		height:60px;
+		position:absolute;
+		left:30px;
+		top:220px;
+	background-color:#3D3C3A;
+		color:white;
+}
+#five
+{ border:1px #3D3C3A;
+		width:60px;
+		height:60px;
+		position:absolute;
+		left:90px;
+		top:220px;
+		background-color:#3D3C3A;
+		color:white;
+}
+#six
+{ 		width:60px;border:1px #3D3C3A;
+		height:60px;
+		position:absolute;
+		left:150px;
+		top:220px;
+		background-color:#3D3C3A;
+		color:white;
+}
+#min
+{border:1px #3D3C3A;
+		width:60px;
+		height:60px;
+		position:absolute;
+		left:210px;
+		top:220px;
+		background-color:#6F6E6C;
+		color:white;
+	
+}
+#one:hover
+{ background-color:#6F6E6C;
+	border-radius: 30px 30px 30px 30px;
+}#two:hover
+{ background-color:#6F6E6C;
+	border-radius: 30px 30px 30px 30px;
+}#three:hover
+{ background-color:#6F6E6C;
+	border-radius: 30px 30px 30px 30px;
+}#plus:hover
+{ background-color:#8D8C8A;
+	border-radius: 30px 30px 30px 30px;
+}
+#one
+{ border:1px #3D3C3A;
+		width:60px;
+		height:60px;
+		position:absolute;
+		left:30px;
+		top:280px;
+		background-color:#3D3C3A;
+		color:white;
+}
+#two{border:1px #3D3C3A;
+		width:60px;
+		height:60px;
+		position:absolute;
+		left:90px;
+		top:280px;
+		background-color:#3D3C3A;
+		color:white;}
+#three
+{ 
+		border:1px #3D3C3A;
+		width:60px;
+		height:60px;
+		position:absolute;
+		left:150px;
+		top:280px;
+		background-color:#3D3C3A;
+		color:white;
+}
+#plus
+{ border:1px #3D3C3A;;
+		width:60px;
+		height:60px;
+		position:absolute;
+		left:210px;
+		top:280px;
+		background-color:#6F6E6C;
+		color:white;
+}
+#zero:hover
+{ background-color:#6F6E6C;
+	border-radius: 30px 30px 30px 30px;
+}#dec:hover
+{ background-color:#6F6E6C;
+	border-radius: 30px 30px 30px 30px;
+}#et:hover
+{ background-color:#8D8C8A;
+	border-radius: 30px 30px 30px 30px;
+}
+#zero
+{ border:1px #3D3C3A;;
+		width:120px;
+		height:60px;
+		position:absolute;
+		left:30px;
+		top:340px;
+		background-color:#3D3C3A;
+		color:white;
+}
+#dec
+{border:1px #3D3C3A; 
+border:1px solid blabk;
+
+                width:60px;
+                height:60px;
+                position:absolute;
+                left:150px;
+                top:340px;
+               background-color:#3D3C3A;
+		color:white;
+}
+#et
+{ border:1px #3D3C3A;
+
+                width:60px;
+                height:60px;
+                position:absolute;
+                left:210px;
+                top:340px;
+                background-color:#6F6E6C;
+		color:white;
+}
+</style>
+
+<meta charset="utf-8">
+<title>Calculator</title>
+</head>
+<body>
+<form name="frm" style="padding: 20px; border: 1px solid black; width:260px; height:370px; background-color:#3D3C3A">
+<input name="exp" id="res1" >
+<input name="res" id="res2" >
+<br />
+<input type="button" name="C" value="c" id="c" onClick="runc()">
+<input type="button" name="(" value="(" id="ob" onClick="run('(')">
+<input type="button" name=")" value=")" id="cb" onClick="run(')')">
+<input type="button" name="/" value="/" id="dv" onClick="run('/')">
+
+<br />
+<input type="button" name="7" value="7" id="sev" onClick="run(7)">
+<input type="button" name="8" value="8" id="eight" onClick="run(8)">
+<input type="button" name="9" value="9" id="nine" onClick="run(9)">
+
+<input type="button" name="*" value="*" id="mult" onClick="run('*')">
+
+
+<br />
+<input type="button" name="4" value="4" id="four" onClick="run(4)">
+<input type="button" name="5" value="5" id="five" onClick="run(5)">
+<input type="button" name="6" value="6" id="six" onClick="run(6)">
+<input type="button" name="-" value="-" id="min" onClick="run('-')">
+
+<br />
+<input type="button" name="1" value="1" id="one" onClick="run(1)">
+<input type="button" name="2" value="2" id="two" onClick="run(2)">
+<input type="button" name="3" value="3" id="three" onClick="run(3)">
+<input type="button" name="+" value="+" id="plus" onClick="run('+')">
+
+<br />
+<input type="button" name="0" value="0" id="zero" onClick="run(0)">
+<input type="button" name="." value="." id="dec" onClick="run('.')">
+<input type="button" name="calc" value="=" id="et" onClick="evalu()">
+</form>
+<script type="text/javascript">
+function runc()
+{
+document.frm.exp.value=" ";
+document.frm.res.value=" ";
+}
+
+function run(num)
+{
+document.frm.exp.value+=num;
+var e=eval(document.frm.exp.value);
+document.frm.res.value = e;
+}
+
+function evalu()
+{
+var evalo = eval(document.frm.exp.value)
+document.frm.res.value=evalo;
+document.frm.exp.value=evalo;
+}
+</script>
+</body>
+</html>
